@@ -34,6 +34,12 @@ Acceptance Criteria:
 * Each team page displays each player's name along with their position
 * Given that I am on the `/teams` page, I can get to this page by clicking on the name of the team
 
+### Tips
+
+* There are some spec files available to help drive your code through Test Driven Development! Feel free to write some tests to help with the assignment, but they are no required.
+
+* In order to visit a specific team's page, you can utilize the `params` hash to tell your `app.rb` file which team page to visit. Your app, however, should only have one generic path, `/team/:team_name` or `/team/:team` to access any team's show page.
+
 ### Optional Challenges
 #### Implement features that satisfy the following user stories
 

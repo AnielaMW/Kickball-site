@@ -1,0 +1,7 @@
+<h1>Positions</h1>
+
+<ul>
+  <% TeamData.positions_list.each do |position| %>
+    <li><a href="/positions/<%= position %>"><%= position %></a></li>
+  <% end %>
+</ul>

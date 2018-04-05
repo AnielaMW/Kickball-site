@@ -1,0 +1,7 @@
+<% @team = Team.find(params["team"]) %>
+<h1><%= @team.name %></h1>
+<ul>
+  <% @team.players.each do |player| %>
+    <li><%= player.position + ": " + player.name %></li>
+  <% end %>
+</ul>
